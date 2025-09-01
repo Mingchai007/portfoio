@@ -38,7 +38,7 @@ const projects = [
   {
     title: "What City WEB Fivem E-Commerce",
     description: "แอปพยากรณ์อากาศพร้อม UI ที่สวยงาม Animation และข้อมูลสภาพอากาศแบบ Real-time",
-    image: "https://img5.pic.in.th/file/secure-sv1/Screenshot-2025-07-10-195755.png",
+    image: "https://img2.pic.in.th/pic/Screenshot-2025-09-01-174502.png",
     tags: ["React", "Tailwind CSS" ,  "CSS Animations", "Responsive"],
     liveUrl: "https://universal.whatcityth.com/",
     githubUrl: "#",
