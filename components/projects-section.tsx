@@ -14,7 +14,7 @@ const projects = [
     image: "https://img2.pic.in.th/pic/Screenshot-2025-07-10-174510525ce6f0d79028c0.png",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "http://dashboard.pixelnetwork.in.th/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mingchai007/pixel-dashboard",
     gradient: "from-blue-500/20 to-purple-500/20",
   },
   {
