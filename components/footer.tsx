@@ -47,7 +47,7 @@ export function Footer() {
             สร้างด้วย <Heart className="h-4 w-4 text-red-400" /> และ Next.js
           </p>
 
-          <p className="text-sm text-muted-foreground mt-2">© 2024 Your Name. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground mt-2">© 2025 Phanuphong Mingchai.</p>
         </motion.div>
       </div>
     </footer>
