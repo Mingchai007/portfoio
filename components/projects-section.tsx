@@ -20,9 +20,9 @@ const projects = [
   {
     title: "Web Fivem E-Commerce",
     description: "เว็บไซต์ E-Commerce สำหรับ Fivem พร้อมระบบจัดการสินค้าและการชำระเงินอัตโนมัติ",
-    image: "https://img2.pic.in.th/pic/imaged44596d95257fdb1.png",
+    image: "https://img2.pic.in.th/pic/Screenshot-2025-09-03-163349.png",
     tags: ["React", "Next","TypeScript" , "Tailwind CSS"],
-    liveUrl: "https://seoul-shop.com/",
+    liveUrl: "https://ladystown.shop/",
     githubUrl: "#",
     gradient: "from-emerald-500/20 to-blue-500/20",
   },
