@@ -5,6 +5,7 @@ import { useState } from "react"
 import { ExternalLink, Github, Eye } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { title } from "process"
 
 const projects = [
   {
@@ -42,6 +43,16 @@ const projects = [
     tags: ["React", "Tailwind CSS" ,  "CSS Animations", "Responsive"],
     liveUrl: "https://universal.whatcityth.com/",
     githubUrl: "#",
+    gradient: "from-cyan-500/20 to-blue-500/20",
+  },
+
+  {
+    title: "Front-end Web Course",
+    description: "หลักสูตรการพัฒนาเว็บฟรอนต์เอนด์",
+    image: "https://img2.pic.in.th/pic/Screenshot-2025-08-30-002149.png",
+    tags: ["NextJs", "Tailwind CSS" , "Responsive"],
+    liveUrl: "https://web-course-rho.vercel.app/",
+    githubUrl: "https://github.com/Mingchai007/Web-Course",
     gradient: "from-cyan-500/20 to-blue-500/20",
   },
 
