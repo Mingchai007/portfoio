@@ -311,25 +311,10 @@ export function ResumeContent() {
 
                       <div className="space-y-3">
                         {skillGroup.items.map((skill) => (
-                          <div key={skill} className="flex items-center justify-between">
+                          <div key={skill} className="flex items-center">
                             <span className="text-sm text-muted-foreground">{skill}</span>
                           </div>
                         ))}
-                      </div>
-
-                      <div className="mt-4">
-                        <div className="flex justify-between items-center mb-2">
-                          <span className="text-xs text-muted-foreground">ระดับความเชี่ยวชาญ</span>
-                          <span className="text-xs text-muted-foreground">{skillGroup.level}%</span>
-                        </div>
-                        <div className="h-2 bg-muted rounded-full overflow-hidden">
-                          <motion.div
-                            className="h-full bg-gradient-to-r from-blue-400 to-purple-600 rounded-full"
-                            initial={{ width: 0 }}
-                            animate={{ width: `${skillGroup.level}%` }}
-                            transition={{ duration: 1.5, delay: 0.5 + index * 0.1, ease: "easeOut" }}
-                          />
-                        </div>
                       </div>
                     </CardContent>
                   </Card>
